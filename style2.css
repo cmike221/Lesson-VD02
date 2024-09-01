@@ -1,0 +1,77 @@
+p {
+   background-color: crimson;
+<!-- background-color: rgb(220, 20, 60); -->
+}
+
+#test {
+    background-color: #1E90FF;
+}
+
+.text {
+    background-color: olivedrab;
+    font-size : 34px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 100;
+    width: 50%;
+    height: 200px;
+    border-color : deeppink;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+}
+
+h1::before{
+    content: 'Город ';
+    color: deeppink;
+    font0size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    border-radius: 50%;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    transition: 1s;
+}
+
+div:hover {
+    background-color: #0008ff;
+    width: 150px;
+    height: 150px;
+    transition: 1s;
+}
+a:link{
+    color: deeppink;
+}
+
+a:visited{
+    color: olivedrab;
+}
+
+a:active{
+    color: royalblue;
+}
+.card {
+    width: 400px;
+    height: 650px;
+    background-color: burlywood;
+    border-radius: 60px;
+}
+
+.photo {
+    height: 40%;
+    padding: 40px;
+}
+.info {
+    padding: 40px;
+    height: 40%;
+}
+img {
+    position: relative;
+    left:3%;
+    border-radius: 20px;
+}
